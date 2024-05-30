@@ -26,5 +26,6 @@ import ToolButton from '../tool/UnderlinedButton.vue'
   flex-direction: row;
   justify-content: space-between;
   gap: 1rem;
+  padding: 20px 40px;
 }
 </style>

@@ -11,8 +11,8 @@
 <style scoped>
 .tool-button {
   display: inline-block;
-  padding: 10px 20px;
-  color: #fff; /* 按钮文本颜色 */
+  padding: 10px 40px;
+  color: #fff;
   text-align: center;
   cursor: pointer;
   position: relative;
