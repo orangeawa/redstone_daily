@@ -33,3 +33,21 @@ pnpm build
 ```sh
 pnpm lint
 ```
+
+# 项目代码都放在src目录下
+
+- App.vue是根组件
+- views是放页面的地方
+- components是组件
+  - 其中tool是放一些通用工具组件的地方，比如说：按钮、链接、表单等
+  - 其他文件夹是页面的组件，对应着views文件夹下的页面
+
+## 用了以下依賴：
+
+- 主依赖
+  - [Pinia](https://pinia.vuejs.org/)
+  - [Vue Router](https://router.vuejs.org/)
+- 开发依赖
+  - [ESLint](https://eslint.org/)
+  - [Vite](https://vitejs.dev/)
+  - [vite-plugin-vue-devtools](https://devtools-next.vuejs.org/)
